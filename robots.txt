@@ -1,0 +1,13 @@
+# robots.txt for U.B Solutions
+# https://www.ubsolutions.com/
+
+User-agent: *
+Allow: /
+
+# Block admin or private paths (add as needed)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap location
+Sitemap: https://www.ubsolutions.com/sitemap.xml
