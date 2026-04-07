@@ -9,14 +9,23 @@
   <meta name="author" content="U.B Solutions" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.ubsolutions.com/" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="U.B Solutions | IT & Software Services" />
   <meta property="og:description" content="Custom software, secure cloud infrastructure, and cutting-edge digital solutions for modern businesses." />
   <meta property="og:url" content="https://www.ubsolutions.com/" />
   <meta property="og:site_name" content="U.B Solutions" />
+  <meta property="og:image" content="https://www.ubsolutions.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="U.B Solutions – Custom Software, Cloud & Cybersecurity Services" />
+  <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ubsolutions" />
   <meta name="twitter:title" content="U.B Solutions | IT & Software Services" />
   <meta name="twitter:description" content="Custom software, secure cloud infrastructure, and cybersecurity for modern businesses." />
+  <meta name="twitter:image" content="https://www.ubsolutions.com/og-image.png" />
+  <meta name="twitter:image:alt" content="U.B Solutions – IT & Software Services" />
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"ITService","name":"U.B Solutions","url":"https://www.ubsolutions.com","description":"Custom software development, cloud migration, and cybersecurity solutions.","telephone":"+1-555-123-4567","email":"info@ubsolutions.com","address":{"@type":"PostalAddress","addressCountry":"US"},"offers":[{"@type":"Offer","name":"Custom Software Development"},{"@type":"Offer","name":"Cloud Migration & Hosting"},{"@type":"Offer","name":"Cybersecurity Solutions"}]}
   </script>
@@ -227,9 +236,9 @@
         <a href="#services" class="btn-ghost">Explore Services</a>
       </div>
       <div class="hero-stats">
-        <div class="hero-stat"><strong>200+</strong><span>Projects delivered</span></div>
-        <div class="hero-stat"><strong>98%</strong><span>Client satisfaction</span></div>
-        <div class="hero-stat"><strong>10+</strong><span>Years of expertise</span></div>
+        <div class="hero-stat"><strong>200+</strong><a href="#services" style="font-size:.8rem;color:rgba(255,255,255,.45);text-decoration:none;display:block">Projects delivered</a></div>
+        <div class="hero-stat"><strong>98%</strong><a href="#testimonials" style="font-size:.8rem;color:rgba(255,255,255,.45);text-decoration:none;display:block">Client satisfaction</a></div>
+        <div class="hero-stat"><strong>10+</strong><a href="#about" style="font-size:.8rem;color:rgba(255,255,255,.45);text-decoration:none;display:block">Years of expertise</a></div>
       </div>
     </div>
     <div class="hero-visual" aria-hidden="true">
@@ -316,7 +325,7 @@
     </header>
     <div class="services-grid">
 
-      <article class="service-card reveal">
+      <article class="service-card reveal" id="service-software">
         <div class="si si-sw" aria-hidden="true">
           <svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
             <rect x="8" y="18" width="94" height="74" rx="8" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity=".6"/>
@@ -337,7 +346,7 @@
         </div>
       </article>
 
-      <article class="service-card reveal">
+      <article class="service-card reveal" id="service-cloud">
         <div class="si si-cl" aria-hidden="true">
           <svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="55" cy="48" rx="36" ry="20" fill="none" stroke="#fff" stroke-width="1.5" stroke-opacity=".5"/>
@@ -361,7 +370,7 @@
         </div>
       </article>
 
-      <article class="service-card reveal">
+      <article class="service-card reveal" id="service-security">
         <div class="si si-se" aria-hidden="true">
           <svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
             <path d="M55 14 L84 26 L84 56 Q84 80 55 95 Q26 80 26 56 L26 26 Z" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-opacity=".8"/>
@@ -379,7 +388,7 @@
         </div>
       </article>
 
-      <article class="service-card reveal">
+      <article class="service-card reveal" id="service-data">
         <div class="si si-da" aria-hidden="true">
           <svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
             <rect x="16" y="78" width="14" height="20" rx="3" fill="#4ade80" opacity=".8"/>
@@ -400,7 +409,7 @@
         </div>
       </article>
 
-      <article class="service-card reveal">
+      <article class="service-card reveal" id="service-devops">
         <div class="si si-dv" aria-hidden="true">
           <svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
             <path d="M22 55 Q22 32 42 32 Q55 32 55 55 Q55 78 68 78 Q88 78 88 55 Q88 32 68 32 Q55 32 55 55 Q55 78 42 78 Q22 78 22 55 Z" fill="none" stroke="#fb923c" stroke-width="2" stroke-linecap="round" opacity=".8"/>
@@ -420,7 +429,7 @@
         </div>
       </article>
 
-      <article class="service-card reveal">
+      <article class="service-card reveal" id="service-ai">
         <div class="si si-ai" aria-hidden="true">
           <svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
             <circle cx="18" cy="36" r="7" fill="none" stroke="#818cf8" stroke-width="1.5" opacity=".8"/>
@@ -547,7 +556,7 @@
 </section>
 
 <!-- TESTIMONIALS -->
-<section class="testimonials" aria-labelledby="testi-heading">
+<section class="testimonials" id="testimonials" aria-labelledby="testi-heading">
   <div class="section-inner">
     <div class="reveal" style="text-align:center">
       <span class="section-tag">What clients say</span>
@@ -599,7 +608,7 @@
       <span class="section-tag">Get in touch</span>
       <h2 class="section-title" id="contact-heading">Let's Start a Conversation</h2>
       <p style="color:var(--muted);font-weight:300;margin-bottom:36px;line-height:1.75">We'd love to hear about your project. Fill out the form and we'll get back to you within one business day.</p>
-      <div class="cd"><div class="cd-icon" aria-hidden="true">✉️</div><div><div style="font-size:.78rem;color:var(--muted);margin-bottom:2px">Email</div><a href="mailto:info@ubsolutions.com">info@ubsolutions.com</a></div></div>
+      <div class="cd"><div class="cd-icon" aria-hidden="true">✉️</div><div><div style="font-size:.78rem;color:var(--muted);margin-bottom:2px">Email</div><a href="/cdn-cgi/l/email-protection#d2bbbcb4bd92a7b0a1bdbea7a6bbbdbca1fcb1bdbf"><span class="__cf_email__" data-cfemail="d2bbbcb4bd92a7b0a1bdbea7a6bbbdbca1fcb1bdbf">[email&#160;protected]</span></a></div></div>
       <div class="cd"><div class="cd-icon" aria-hidden="true">📞</div><div><div style="font-size:.78rem;color:var(--muted);margin-bottom:2px">Phone</div><a href="tel:+15551234567">+1 (555) 123-4567</a></div></div>
       <div class="cd"><div class="cd-icon" aria-hidden="true">🕐</div><div><div style="font-size:.78rem;color:var(--muted);margin-bottom:2px">Office Hours</div><span>Mon – Fri, 9 AM – 6 PM EST</span></div></div>
     </div>
@@ -640,12 +649,12 @@
     <div class="fcol">
       <h4>Services</h4>
       <ul>
-        <li><a href="#services">Software Development</a></li>
-        <li><a href="#services">Cloud Migration</a></li>
-        <li><a href="#services">Cybersecurity</a></li>
-        <li><a href="#services">Data Analytics</a></li>
-        <li><a href="#services">DevOps &amp; CI/CD</a></li>
-        <li><a href="#services">AI &amp; ML</a></li>
+        <li><a href="#service-software">Software Development</a></li>
+        <li><a href="#service-cloud">Cloud Migration</a></li>
+        <li><a href="#service-security">Cybersecurity</a></li>
+        <li><a href="#service-data">Data Analytics</a></li>
+        <li><a href="#service-devops">DevOps &amp; CI/CD</a></li>
+        <li><a href="#service-ai">AI &amp; ML</a></li>
       </ul>
     </div>
     <div class="fcol">
@@ -653,16 +662,18 @@
       <ul>
         <li><a href="#about">About Us</a></li>
         <li><a href="#process">Our Process</a></li>
+        <li><a href="#testimonials">Client Reviews</a></li>
         <li><a href="#contact">Careers</a></li>
-        <li><a href="#contact">Blog</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div>
     <div class="fcol">
       <h4>Legal</h4>
       <ul>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Service</a></li>
-        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="/terms.html">Terms of Service</a></li>
+        <li><a href="/cookies.html">Cookie Policy</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
       </ul>
     </div>
   </div>
@@ -676,7 +687,7 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('nav-links');
   hamburger.addEventListener('click', () => {
@@ -690,13 +701,4 @@
   }, { threshold: 0.1 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   const form = document.querySelector('form');
-  if (form) form.addEventListener('submit', e => {
-    e.preventDefault();
-    const btn = form.querySelector('.btn-submit');
-    btn.textContent = '✓ Message sent! We\'ll be in touch soon.';
-    btn.style.background = '#16a34a';
-    btn.disabled = true;
-  });
-</script>
-</body>
-</html>
+  if (form) form.addEventListener('submit',
